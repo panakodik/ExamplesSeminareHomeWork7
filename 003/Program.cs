@@ -3,9 +3,9 @@
 Console.Clear();
 
 Console.WriteLine("Введите размер двумерного массива m x n: ");
-Console.Write("количество строк m = ");
+Console.Write("Задайте количество строк m = ");
 int m = int.Parse(Console.ReadLine());
-Console.Write("количество столбцов n = ");
+Console.Write("Задайте количество столбцов n = ");
 int n = int.Parse(Console.ReadLine()); 
 int[,] matr = new int[m, n];
 
