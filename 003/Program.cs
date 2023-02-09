@@ -15,6 +15,7 @@ Console.WriteLine();
 SumColumnArray();
 Console.WriteLine();
 
+
 void FillArray()
 {            
 for (int i = 0; i < matr.GetLength(0); i++)
